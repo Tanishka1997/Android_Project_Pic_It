@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Search"
+          android:id="@+id/menu_item_search"
+          app:actionViewClass="android.support.v7.widget.SearchView"
+          app:showAsAction="ifRoom"/>
+    <item android:title="Clear Search"
+        android:id="@+id/menu_item_clear"
+        app:showAsAction="never"/>
+    <item android:title="Start Polling"
+          android:id="@+id/start_polling"
+          app:showAsAction="never"/>
+    <item android:title="Refresh Page"
+         android:id="@+id/refresh"
+        app:showAsAction="never"/>
+
+</menu>

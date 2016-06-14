@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tanishka.picit.PhotoPage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar_photo_page_web_view"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        android:background="#ffffff"
+        style="?android:attr/progressBarStyleHorizontal"/>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress_bar_photo_page_web_view"
+        android:id="@+id/fragment_photo_page_web_view">
+    </WebView>
+
+</RelativeLayout>
