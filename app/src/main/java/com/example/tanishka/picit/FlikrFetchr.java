@@ -24,7 +24,7 @@ public class FlikrFetchr {
 
 
    List<PicItem> items;
-    public static final String KEY="92b881acf1f66f3153a8a18060b44a0d";
+    public static final String KEY="your api key";
     private static final  String Fetch_Recents_Method="flickr.photos.getRecent";
     private static final String Search_Method="flickr.photos.search";
     public static String page_no;
